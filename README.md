@@ -43,9 +43,9 @@ _Note: This project uses a flattened analytical dataset suitable for BI reportin
 ### Overview of Findings
 From a risk and profitability perspective, three insights stand out:
 
-**Claim costs are not evenly distributed**—specific demographic and vehicle segments contribute disproportionately to total claim value.
-**Middle-aged policyholders (26–65)** represent the largest share of both policies and claims, making them the most critical segment for underwriting optimization.
-**Private vehicle usage dominates the portfolio,** but commercial usage shows higher claim severity relative to volume.
+* **Claim costs are not evenly distributed**—specific demographic and vehicle segments contribute disproportionately to total claim value.
+* **Middle-aged policyholders (26–65)** represent the largest share of both policies and claims, making them the most critical segment for underwriting optimization.
+* **Private vehicle usage dominates the portfolio,** but commercial usage shows higher claim severity relative to volume.
 
 These findings provide clear opportunities to refine pricing, improve risk segmentation, and focus loss-control strategies.
 
