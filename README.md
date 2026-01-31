@@ -59,23 +59,23 @@ Key Insights:
 
 ### Category 2: Claims Behavior & Financial Impact
 Key Insights:
-Total claim amount reaches $187.8M, with an average claim amount of ~$5K.
-Claim frequency remains relatively low (~0.5), but high-cost claims significantly impact total loss.
-Claim amounts are concentrated within a few high-volume customer segments rather than being evenly distributed.
-Education and marital status combined reveal distinct claim cost patterns, useful for actuarial modeling.
+* Total claim amount reaches $187.8M, with an average claim amount of ~$5K.
+* Claim frequency remains relatively low (~0.5), but high-cost claims significantly impact total loss.
+* Claim amounts are concentrated within a few high-volume customer segments rather than being evenly distributed.
+* Education and marital status combined reveal distinct claim cost patterns, useful for actuarial modeling.
 
 ### Category 3: Vehicle & Usage-Based Risk Analysis
 Key Insights:
-Private vehicles account for the majority of policies and total claim value.
-Certain car manufacturers (e.g., high-volume brands) consistently appear among top claim contributors.
-Vehicles manufactured between the early 2000s and mid-2010s show higher claim exposure, indicating potential aging-related risk.
-Commercial vehicles, while fewer in number, show relatively higher average claim impact. 
+* Private vehicles account for the majority of policies and total claim value.
+* Certain car manufacturers (e.g., high-volume brands) consistently appear among top claim contributors.
+* Vehicles manufactured between the early 2000s and mid-2010s show higher claim exposure, indicating potential aging-related risk.
+* Commercial vehicles, while fewer in number, show relatively higher average claim impact. 
 
 ### Category 4: Geographic & Coverage Zone Insights
 Key Insights:
-Claim amounts are evenly spread across coverage zones, but subtle differences exist between urban and rural segments.
-Highly urban and suburban zones contribute slightly higher claim totals, likely due to traffic density and accident exposure.
-No single zone dominates risk entirely—suggesting portfolio diversification across regions is currently effective.
+* Claim amounts are evenly spread across coverage zones, but subtle differences exist between urban and rural segments.
+* Highly urban and suburban zones contribute slightly higher claim totals, likely due to traffic density and accident exposure.
+* No single zone dominates risk entirely—suggesting portfolio diversification across regions is currently effective.
 
 # Recommendations:
 Based on the insights above, the insurance underwriting and risk teams should consider the following actions:
