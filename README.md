@@ -1,13 +1,3 @@
-# Insurance-Risk-and-Claim-Analysis
-
-Welcome to the sample GitHub ReadME! Use this template as an outline for your data analytics projects. Include one ReadME per repository, with each repository storing one project. Remember, it's better to have quality over quantity - having 2 stellar business-relevant projects stands out much more than 3+ mediocre projects. Feel free to make a copy of this or fork this repository and make it your own. Happy portfolio-ing :) 
-
-# Total Claim Amount 
-![1759364325633](https://github.com/user-attachments/assets/0955fb14-0d62-4d3d-bf4e-d7270629d7d9)
-
-# Total Policies
-![1759364326157](https://github.com/user-attachments/assets/50e198d9-8435-4c61-956e-f0955460c018)
-
 # Project Background
 This project simulates a real-world analytics engagement for a motor insurance company operating in the personal and commercial auto insurance space. The company underwrites vehicle insurance policies across multiple regions and customer segments, with revenue driven by policy premiums and profitability heavily influenced by claim frequency and claim severity.
 
@@ -21,18 +11,16 @@ The outcome is a two-page interactive Power BI dashboard designed to support dat
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Category 1: Policyholder Demographics & Risk Profile** 
+- **Category 2: Claims Behavior & Financial Impact** 
+- **Category 3: Vehicle & Usage-Based Risk Analysis** 
+- **Category 4: Geographic & Coverage Zone Insights** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
-
+Below are the dashboard used to report and explore the dataset.
+### Total Claim Amount
+![1759364325633](https://github.com/user-attachments/assets/0955fb14-0d62-4d3d-bf4e-d7270629d7d9)
+### Total Policies
+![1759364326157](https://github.com/user-attachments/assets/50e198d9-8435-4c61-956e-f0955460c018)
 
 # Data Structure & Initial Checks
 
