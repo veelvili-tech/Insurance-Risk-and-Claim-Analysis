@@ -24,102 +24,70 @@ Below are the dashboard used to report and explore the dataset.
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The company’s analytical dataset is structured around policyholder, vehicle, and claims attributes, enabling multi-dimensional analysis.
+### Core data entities include:
+- **Policy information (policy count, usage type, coverage zone)**
+- **Customer demographics (age, gender, education, marital status)**
+- **Vehicle attributes (make, model year, usage)**
+- **Claims data (claim amount, frequency)**
 
-[Entity Relationship Diagram here]
+_Note: This project uses a flattened analytical dataset suitable for BI reporting rather than a transactional OLTP schema._
 
-
+### Initial checks included:
+- **Validation of null and zero claim values**
+- **Consistency checks for categorical fields (e.g., car use, zones)**
+- **Aggregation sanity checks for policy and claim totals**
 
 # Executive Summary
 
 ### Overview of Findings
+From a risk and profitability perspective, three insights stand out:
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+**Claim costs are not evenly distributed**—specific demographic and vehicle segments contribute disproportionately to total claim value.
+**Middle-aged policyholders (26–65)** represent the largest share of both policies and claims, making them the most critical segment for underwriting optimization.
+**Private vehicle usage dominates the portfolio,** but commercial usage shows higher claim severity relative to volume.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
-
+These findings provide clear opportunities to refine pricing, improve risk segmentation, and focus loss-control strategies.
 
 # Insights Deep Dive
-### Category 1:
+### Category 1: Policyholder Demographics & Risk Profile
+Key Insights:
+Policy distribution is almost evenly split between male and female policyholders, indicating balanced market penetration.
+The 26–65 age group holds the majority of policies, with consistent exposure across multiple age bands.
+Customers with Bachelor’s and High School education levels account for the highest claim amounts, suggesting higher exposure volume within these segments.
+Single and married customers drive the largest share of total claims, making marital status a meaningful segmentation variable.
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+### Category 2: Claims Behavior & Financial Impact
+Key Insights:
+Total claim amount reaches $187.8M, with an average claim amount of ~$5K.
+Claim frequency remains relatively low (~0.5), but high-cost claims significantly impact total loss.
+Claim amounts are concentrated within a few high-volume customer segments rather than being evenly distributed.
+Education and marital status combined reveal distinct claim cost patterns, useful for actuarial modeling.
 
-[Visualization specific to category 1]
+### Category 3: Vehicle & Usage-Based Risk Analysis
+Key Insights:
+Private vehicles account for the majority of policies and total claim value.
+Certain car manufacturers (e.g., high-volume brands) consistently appear among top claim contributors.
+Vehicles manufactured between the early 2000s and mid-2010s show higher claim exposure, indicating potential aging-related risk.
+Commercial vehicles, while fewer in number, show relatively higher average claim impact. 
 
-
-### Category 2:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 2]
-
-
-### Category 3:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
-
-
+### Category 4: Geographic & Coverage Zone Insights
+Key Insights:
+Claim amounts are evenly spread across coverage zones, but subtle differences exist between urban and rural segments.
+Highly urban and suburban zones contribute slightly higher claim totals, likely due to traffic density and accident exposure.
+No single zone dominates risk entirely—suggesting portfolio diversification across regions is currently effective.
 
 # Recommendations:
+Based on the insights above, the insurance underwriting and risk teams should consider the following actions:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
-
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Refine pricing models for high-claim demographic segments (mid-age, high-volume education groups).
+* Introduce targeted risk-adjusted premiums for older vehicle models with consistently higher claims.
+* Enhance commercial vehicle underwriting rules, given their higher claim severity despite lower policy volume.
+* Use education and marital status as secondary risk indicators in segmentation and cross-sell strategies.
+* Maintain geographic diversification, while monitoring urban zones for emerging risk trends.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-
-
 # Assumptions and Caveats:
 
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Claim frequency is treated as an average metric due to the absence of individual claim timelines.
+* The dataset represents a snapshot-style analytical extract, not real-time transactional data.
+* No external economic or weather factors were included, which may influence real-world claim behavior.
