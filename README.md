@@ -52,10 +52,10 @@ These findings provide clear opportunities to refine pricing, improve risk segme
 # Insights Deep Dive
 ### Category 1: Policyholder Demographics & Risk Profile
 Key Insights:
-Policy distribution is almost evenly split between male and female policyholders, indicating balanced market penetration.
-The 26–65 age group holds the majority of policies, with consistent exposure across multiple age bands.
-Customers with Bachelor’s and High School education levels account for the highest claim amounts, suggesting higher exposure volume within these segments.
-Single and married customers drive the largest share of total claims, making marital status a meaningful segmentation variable.
+* Policy distribution is almost evenly split between male and female policyholders, indicating balanced market penetration.
+* The 26–65 age group holds the majority of policies, with consistent exposure across multiple age bands.
+* Customers with Bachelor’s and High School education levels account for the highest claim amounts, suggesting higher exposure volume within these segments.
+* Single and married customers drive the largest share of total claims, making marital status a meaningful segmentation variable.
 
 ### Category 2: Claims Behavior & Financial Impact
 Key Insights:
