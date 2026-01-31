@@ -8,11 +8,16 @@ Welcome to the sample GitHub ReadME! Use this template as an outline for your da
 # Total Policies
 ![1759364326157](https://github.com/user-attachments/assets/50e198d9-8435-4c61-956e-f0955460c018)
 
-
-
-
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+This project simulates a real-world analytics engagement for a motor insurance company operating in the personal and commercial auto insurance space. The company underwrites vehicle insurance policies across multiple regions and customer segments, with revenue driven by policy premiums and profitability heavily influenced by claim frequency and claim severity.
+
+As a Data Analyst working within the insurance analytics team, my objective was to consolidate fragmented policyholder and claims data into a single source of truth and enable business stakeholders—such as risk managers, underwriting teams, and senior leadership—to quickly understand:
+
+- **Who the policyholders are**
+- **Where claims are concentrated**
+- **Which customer and vehicle segments drive higher risk and cost**
+
+The outcome is a two-page interactive Power BI dashboard designed to support data-driven decisions around pricing, risk assessment, and portfolio optimization.
 
 Insights and recommendations are provided on the following key areas:
 
