@@ -9,7 +9,7 @@ As a Data Analyst working within the insurance analytics team, my objective was 
 
 The DAX measures used to calculate KPIs, enable dynamic measure switching, and support interactive insights in this analysis can be found here [link]. 
 
-The outcome is a two-page interactive Power BI dashboard designed to support data-driven decisions around pricing, risk assessment, and portfolio optimization.
+The outcome is a two-page interactive **Power BI** dashboard designed to support data-driven decisions around pricing, risk assessment, and portfolio optimization.
 
 ### Business Objective & Key Analysis Area
 Insights and recommendations are provided on the following key areas:
