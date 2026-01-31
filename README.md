@@ -29,6 +29,7 @@ The analysis is delivered through two interactive dashboard views:
 All visuals are dynamically driven by two core measures:
 * Total Policies
 * Total Claim Amount
+
 This design allows stakeholders to seamlessly switch between exposure analysis (policy volume) and financial risk analysis (claim value) using the same visual framework.
 
 ### Key KPIs
