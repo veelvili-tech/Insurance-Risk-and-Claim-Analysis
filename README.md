@@ -1,7 +1,7 @@
 # Project Background
 This project simulates a real-world analytics engagement for a motor insurance company operating in the personal and commercial auto insurance space. The company underwrites vehicle insurance policies across multiple regions and customer segments, with revenue driven by policy premiums and profitability heavily influenced by claim frequency and claim severity.
 
-As a Data Analyst working within the insurance analytics team, my objective was to consolidate fragmented policyholder and claims data into a single source of truth and enable business stakeholders—such as risk managers, underwriting teams, and senior leadership—to quickly understand:
+As a Data Analyst working within the insurance analytics team, my objective was to consolidate fragmented policyholder and claims data into a single source of truth and enable business stakeholders such as risk managers, underwriting teams, and senior leadership to quickly understand:
 
 - **Who the policyholders are**
 - **Where claims are concentrated**
