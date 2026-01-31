@@ -11,21 +11,34 @@ The DAX measures used to calculate KPIs, enable dynamic measure switching, and s
 
 The outcome is a two-page interactive Power BI dashboard designed to support data-driven decisions around pricing, risk assessment, and portfolio optimization.
 
-### Insights and recommendations are provided on the following key areas:
+### Business Objective & Key Analysis Area
+Insights and recommendations are provided on the following key areas:
 
 - **Category 1: Policyholder Demographics & Risk Profile** 
 - **Category 2: Claims Behavior & Financial Impact** 
 - **Category 3: Vehicle & Usage-Based Risk Analysis** 
 - **Category 4: Geographic & Coverage Zone Insights** 
 
-Below are the dashboard used to report and explore the dataset.
+### Dashboard Overview
+The analysis is delivered through two interactive dashboard views:
 ### Total Claim Amount
 ![1759364325633](https://github.com/user-attachments/assets/0955fb14-0d62-4d3d-bf4e-d7270629d7d9)
 ### Total Policies
 ![1759364326157](https://github.com/user-attachments/assets/50e198d9-8435-4c61-956e-f0955460c018)
 
-# Data Structure & Initial Checks
+All visuals are dynamically driven by two core measures:
+* Total Policies
+* Total Claim Amount
+This design allows stakeholders to seamlessly switch between exposure analysis (policy volume) and financial risk analysis (claim value) using the same visual framework.
 
+### Key KPIs
+* Total Policies – Size of the active policyholder base
+* Total Claim Amount – Overall financial exposure from claims
+* Claim Frequency – How often claims occur
+* Average Claim Amount – Claim severity and risk intensity
+* Gender-wise Policy Distribution – Customer segmentation insights 
+
+# Data Structure & Initial Checks
 The company’s analytical dataset is structured around policyholder, vehicle, and claims attributes, enabling multi-dimensional analysis.
 ### Core data entities include:
 * Policy information (policy count, usage type, coverage zone)
