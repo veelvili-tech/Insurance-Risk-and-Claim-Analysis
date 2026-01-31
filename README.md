@@ -26,10 +26,10 @@ Below are the dashboard used to report and explore the dataset.
 
 The company’s analytical dataset is structured around policyholder, vehicle, and claims attributes, enabling multi-dimensional analysis.
 ### Core data entities include:
-- **Policy information (policy count, usage type, coverage zone)**
-- **Customer demographics (age, gender, education, marital status)**
-- **Vehicle attributes (make, model year, usage)**
-- **Claims data (claim amount, frequency)**
+* Policy information (policy count, usage type, coverage zone)
+* Customer demographics (age, gender, education, marital status)
+* Vehicle attributes (make, model year, usage)
+* Claims data (claim amount, frequency)
 
 _Note: This project uses a flattened analytical dataset suitable for BI reporting rather than a transactional OLTP schema._
 
