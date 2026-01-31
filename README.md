@@ -7,6 +7,8 @@ As a Data Analyst working within the insurance analytics team, my objective was 
 - **Where claims are concentrated**
 - **Which customer and vehicle segments drive higher risk and cost**
 
+The DAX measures used to calculate KPIs, enable dynamic measure switching, and support interactive insights in this analysis can be found here [link]. 
+
 The outcome is a two-page interactive Power BI dashboard designed to support data-driven decisions around pricing, risk assessment, and portfolio optimization.
 
 ### Insights and recommendations are provided on the following key areas:
