@@ -34,9 +34,9 @@ The company’s analytical dataset is structured around policyholder, vehicle, a
 _Note: This project uses a flattened analytical dataset suitable for BI reporting rather than a transactional OLTP schema._
 
 ### Initial checks included:
-- **Validation of null and zero claim values**
-- **Consistency checks for categorical fields (e.g., car use, zones)**
-- **Aggregation sanity checks for policy and claim totals**
+* Validation of null and zero claim values
+* Consistency checks for categorical fields (e.g., car use, zones)
+* Aggregation sanity checks for policy and claim totals
 
 # Executive Summary
 
